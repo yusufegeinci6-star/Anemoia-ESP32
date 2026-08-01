@@ -4,7 +4,7 @@
 // Uncomment if you are using composite video output instead of a TFT display
 // #define COMPOSITE_VIDEO
 #define VIDEO_STANDARD 1 // 0 = PAL, 1 = NTSC
-#define AUDIO_PIN      18
+#define AUDIO_PIN      17
 
 // #define CHEAP_YELLOW_DISPLAY_CONF // Uncomment this line if using the CYD
 // #define MODULE_BASED_PCB_CONF // Uncomment this line if using the module PCB
