@@ -14,8 +14,8 @@
 #define TFT_DC     2
 //#define TFT_WR     4
 //#define TFT_RD     -1 // Tie to high / 3V3
-#define TFT_CS     5 // Tie to low
-#define TFT_RST    4 // Connect to ESP32 EN pin
+#define TFT_CS 5 // Tie to low
+#define TFT_RST 4
 
 //#define TFT_D0     14 // DB_8
 //#define TFT_D1     16 // DB_9
