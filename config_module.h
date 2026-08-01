@@ -14,21 +14,21 @@
 // MicroSD card module Pins
 // SD card SPI frequency (try lower if you have issues with SD card initialization, e.g. 4000000)
 #define SD_FREQ                  80000000
-#define SD_MOSI_PIN              13
-#define SD_MISO_PIN              12
-#define SD_SCLK_PIN              14
-#define SD_CS_PIN                -1
+#define SD_MOSI_PIN              23
+#define SD_MISO_PIN              19
+#define SD_SCLK_PIN              18
+#define SD_CS_PIN                13
 #define SD_SPI_PORT              HSPI
 
 // Button pins
-#define A_BUTTON                 19
-#define B_BUTTON                 4
-#define LEFT_BUTTON              22
-#define RIGHT_BUTTON             32
-#define UP_BUTTON                33
-#define DOWN_BUTTON              21
-#define START_BUTTON             27
-#define SELECT_BUTTON            25
+#define A_BUTTON                 25
+#define B_BUTTON                 26
+#define LEFT_BUTTON              12
+#define RIGHT_BUTTON             15
+#define UP_BUTTON                27
+#define DOWN_BUTTON              14
+#define START_BUTTON             32
+#define SELECT_BUTTON            33
 
 // Unused NES controller pins
 #define CONTROLLER_NES_CLK       -1
